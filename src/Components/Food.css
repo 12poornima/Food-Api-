@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000);
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 100px; */
+    height: 100vh;
+}
+
+.food-box {
+    height: 800px;
+    width: 650px;
+    background-color: rgb(253, 252, 252);
+    background-color: rgba(204, 203, 203, 0.9);
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    font-family: 'Satisfy', cursive;
+    font-size: small;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(52, 53, 54);
+    color: white;
+}
+
+.input {
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    font-family: 'Satisfy', cursive;
+    font-size: small;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.para {
+    padding: 35px;
+    font-size: x-large;
+    margin-left: 100px;
+}
