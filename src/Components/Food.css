@@ -17,8 +17,9 @@ body {
 }
 
 .food-box {
-    height: 800px;
+    min-height: 800px;
     width: 650px;
+    margin-top: 500px;
     background-color: rgb(253, 252, 252);
     background-color: rgba(204, 203, 203, 0.9);
     border-radius: 20px;
@@ -42,6 +43,18 @@ body {
     color: white;
 }
 
+.btn1 {
+    width: 180px;
+    height: 40px;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    font-family: 'Satisfy', cursive;
+    font-size: small;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
 .input {
     width: 200px;
     height: 40px;
@@ -57,4 +70,20 @@ body {
     padding: 35px;
     font-size: x-large;
     margin-left: 100px;
+}
+
+.cate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cate span {
+    background-color: white;
+    margin: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+
 }
